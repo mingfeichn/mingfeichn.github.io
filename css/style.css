@@ -1,0 +1,20 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tree {
+    --spacing: 1.5rem;
+    --radius: 60px;
+}
+
+.tree li {
+    display: block;
+    position: relative;
+    padding-left: calc(2 * var(--spacing) - var(--radius) - 2px);
+}
+
+.tree ul {
+    margin-left: calc(var(--radius) - var(--spacing));
+    padding-left: 0;
+}
